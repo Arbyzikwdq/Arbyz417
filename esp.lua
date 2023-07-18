@@ -1,2 +1,3 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Arbyzikwdq/Arbyz417/main/esp.lua", true))()
-local UI1 = library:CreateWindow("Test UI")
+local player = game.Players.LocalPlayer
+
+player.Character.Humanoid.WalkSpeed = 100
