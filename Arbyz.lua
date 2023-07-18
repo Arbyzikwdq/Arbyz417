@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Arbyzikwdq/Ui/main/UI_Template_1%20(1)%20(1).txt"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Arbyzikwdq/UI-Arbyz/main/UI_Arbyz"))()
 
 local colors = {
 
