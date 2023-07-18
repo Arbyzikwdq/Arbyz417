@@ -16,3 +16,5 @@ ElementColor = Color3.fromRGB(20, 20, 20)
 local Window = Library.CreateLib("Name")
 
 local Tab = Window:NewTab("main")
+
+local Tab = Window:NewTab("test")
