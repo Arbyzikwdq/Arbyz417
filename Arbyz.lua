@@ -4,9 +4,9 @@ local colors = {
 
 SchemeColor = Color3.fromRGB(150, 72, 148),
 
-Background = Color3.fromRGB(15,15,15),
+Background = Color3.fromRGB(255,255,255),
 
-Header = Color3.fromRGB(15,15,15),
+Header = Color3.fromRGB(255,255,255),
 
 TextColor = Color3.fromRGB(255,255,255),
 
