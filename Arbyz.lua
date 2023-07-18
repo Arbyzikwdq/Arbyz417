@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Arbyz
 
 local colors = {
 
-SchemeColor = Color3.fromRGB(153, 255, 51),
+SchemeColor = Color3.fromRGB(150, 72, 148),
 
 Background = Color3.fromRGB(15,15,15),
 
