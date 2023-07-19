@@ -6,7 +6,7 @@ local Window = OrionLib:MakeWindow({Name = "ArbyzTAP 🍉", IntroText = "ArbyzTA
 local MainTab = Window:MakeTab({
 	Name = "Main",
 	icon = "rbxassetid://4483345998",
-	Premium Only = false
+	PremiumOnly = false
 })
 
 
