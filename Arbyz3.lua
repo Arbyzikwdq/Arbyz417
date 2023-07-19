@@ -11,19 +11,10 @@ local Tab = Window:MakeTab({
 
 -- Main Menu
 
-local SpeedTransSlider = MainCust:AddSlider({
-	Name = "Speed Transparency",
-	Min = 0,
-	Max = 1,
-	Default = 0.5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 0.05,
-	ValueName = "Transparency",
-	Callback = function(Value)
-	
-})
+local ColorTab = Tab:AddSection({
+	Name = "Color"
 
-
+		
 local EspTab = Window:MakeTab({
 	Name = "Visual",
 	Icon = "rbxassetid://4483345998",
