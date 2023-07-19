@@ -2,7 +2,7 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "King's Universal Esp 📌", IntroText = "King's Universal Esp 📌", HidePremium = false, SaveConfig = true, ConfigFolder = "KingsEsp"})
+local Window = OrionLib:MakeWindow({Name = "ArbyzTAP 🍉", IntroText = "ArbyzTAP 🍉", HidePremium = false, SaveConfig = true, ConfigFolder = "ArbyzEsp"})
 
 local EspTab = Window:MakeTab({
 	Name = "Esp",
