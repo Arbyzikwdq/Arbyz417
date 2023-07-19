@@ -17,8 +17,6 @@ local Window = Library.CreateLib("ArbyzTap 0.1")
 
 local Tab = Window:NewTab("Function")
 
-local Tab = Window:NewTab("Soon...")
-
 local Section = Tab:NewSection("SpeedSection")
 
 Section:NewSlider("Speed", "SpeedInfo", 300, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
