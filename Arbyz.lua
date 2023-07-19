@@ -15,12 +15,12 @@ ElementColor = Color3.fromRGB(20, 20, 20)
 
 local Window = Library.CreateLib("ArbyzTap 0.1")
 
-local Tab = Window:NewTab("Speed")
+local Tab = Window:NewTab("Function")
 
-local Tab = Window:NewTab("test")
+local Tab = Window:NewTab("Soon...")
 
-local Section = Tab:NewSection("Section Name")
+local Section = Tab:NewSection("SpeedSection")
 
-Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("Speed", "SpeedInfo", 300, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
