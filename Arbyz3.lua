@@ -11,8 +11,10 @@ local Tab = Window:MakeTab({
 
 -- Main Menu
 
-local ColorTab = Tab:AddSection({
-	Name = "Color"
+local TestColor
+
+local TestColorTab = Tab:AddSection({
+	Name = "Speed"
 
 		
 local EspTab = Window:MakeTab({
