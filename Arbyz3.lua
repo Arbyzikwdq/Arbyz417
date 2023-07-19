@@ -9,6 +9,23 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+-- Main Menu
+
+local FillTransSlider = MainCust:AddSlider({
+	Name = "Walkspeed",
+	Min = 0,
+	Max = 1,
+	Default = 0,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 0.05,
+	ValueName = "Transparency",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+			end
+		end
+	end    
+})
+
 local EspTab = Window:MakeTab({
 	Name = "Visual",
 	Icon = "rbxassetid://4483345998",
