@@ -11,7 +11,9 @@ local Tab = Window:MakeTab({
 
 -- Main Menu
 
-
+Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
 
 		
 local EspTab = Window:MakeTab({
