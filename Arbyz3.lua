@@ -21,10 +21,9 @@ local FillTransSlider = MainCust:AddSlider({
 	ValueName = "Transparency",
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-			end
 		end
-	end    
-})
+	})
+
 
 local EspTab = Window:MakeTab({
 	Name = "Visual",
