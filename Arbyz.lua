@@ -19,6 +19,6 @@ local Tab = Window:NewTab("Function")
 
 local Section = Tab:NewSection("SpeedSection")
 
-Section:NewSlider("Speed", "SpeedInfo", 300, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+Section:NewTextBox("TextboxText", "TextboxInfo", function(txt)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
 end)
