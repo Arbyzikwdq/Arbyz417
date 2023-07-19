@@ -35,7 +35,7 @@ local EspToggle = EspTab:AddToggle({
 					EspToggled = true
 					OrionLib:MakeNotification({
 						Name = "Esp Enabled!",
-						Content = "By DylanIsAKing#2402",
+						Content = "ArbyzTAP 🍉",
 						Image = "rbxassetid://4483345998",
 						Time = 5
 					})
