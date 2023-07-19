@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Arb
 
 local Window = OrionLib:MakeWindow({Name = "ArbyzTAP 🍉", IntroText = "ArbyzTAP 🍉", HidePremium = false, SaveConfig = true, ConfigFolder = "ArbyzEsp"})
 
-local Tab = Window:MakeTab({
+local MainTab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -11,7 +11,13 @@ local Tab = Window:MakeTab({
 
 -- Main Menu
 
-
+MainTab:AddToggle({
+	Name = "Noclip",
+	Default = false,
+	Callback = function(Value)
+			print(Value)
+		end	
+})
 
 		
 local EspTab = Window:MakeTab({
