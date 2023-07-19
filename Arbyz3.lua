@@ -1,4 +1,3 @@
--- By DylanIsAKing#2402 :)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Arbyzikwdq/UI-Arbyz/main/Ui-Arbyz2')))()
 
@@ -75,7 +74,7 @@ local EspToggle = EspTab:AddToggle({
 					EspToggled = false
 					OrionLib:MakeNotification({
 						Name = "Esp Disabled!",
-						Content = "By DylanIsAKing#2402",
+						Content = "ArbyzTAP 🍉",
 						Image = "rbxassetid://4483345998",
 						Time = 5
 					})
@@ -99,7 +98,7 @@ local EspToggle = EspTab:AddToggle({
 					EspToggled = true
 					OrionLib:MakeNotification({
 						Name = "Esp Enabled!",
-						Content = "By DylanIsAKing#2402",
+						Content = "ArbyzTAP 🍉",
 						Image = "rbxassetid://4483345998",
 						Time = 5
 					})
@@ -138,7 +137,7 @@ local EspToggle = EspTab:AddToggle({
 					EspToggled = false
 					OrionLib:MakeNotification({
 						Name = "Esp Disabled!",
-						Content = "By DylanIsAKing#2402",
+						Content = "ArbyzTAP 🍉",
 						Image = "rbxassetid://4483345998",
 						Time = 5
 					})
@@ -334,7 +333,7 @@ OtherEsp:AddButton({
 		else
 			OrionLib:MakeNotification({
 				Name = "Esp Not Toggled!",
-				Content = "By DylanIsAKing#2402",
+				Content = "ArbyzTAP 🍉",
 				Image = "rbxassetid://4483345998",
 				Time = 5
 			})
@@ -382,7 +381,7 @@ OtherEsp:AddBind({
 		else
 			OrionLib:MakeNotification({
 				Name = "Esp Not Toggled!",
-				Content = "By DylanIsAKing#2402",
+				Content = "ArbyzTAP 🍉",
 				Image = "rbxassetid://4483345998",
 				Time = 5
 			})
