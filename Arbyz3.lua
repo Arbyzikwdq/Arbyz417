@@ -4,7 +4,8 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Arb
 local Window = OrionLib:MakeWindow({Name = "ArbyzTAP 🍉", IntroText = "ArbyzTAP 🍉", HidePremium = false, SaveConfig = true, ConfigFolder = "ArbyzEsp"})
 
 local MainTab = Window:MakeTab({
-	Name = "Main"
+	Name = "Main",
+	PremiumOnly = false
 })
 
 local EspTab = Window:MakeTab({
