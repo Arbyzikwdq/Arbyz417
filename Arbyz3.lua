@@ -11,7 +11,7 @@ local Tab = Window:MakeTab({
 
 -- Main Menu
 
-local FillTransSlider = EspCust:AddSlider({
+local SpeedTransSlider = MainCust:AddSlider({
 	Name = "Fill Transparency",
 	Min = 0,
 	Max = 1,
@@ -20,10 +20,10 @@ local FillTransSlider = EspCust:AddSlider({
 	Increment = 0.05,
 	ValueName = "Transparency",
 	Callback = function(Value)
-		EspTransparency = Value
+		MainTransparency = Value
 		for i, v in pairs(game.Players:GetChildren()) do
 			if v.Character:FindFirstChild("esp") then
-				v.Character.esp.FillTransparency = EspTransparency
+				v.Character.esp.FillTransparency = MainTransparency
 			end
 		end
 	end    
