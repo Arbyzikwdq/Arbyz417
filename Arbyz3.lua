@@ -10,11 +10,9 @@ local Tab = Window:MakeTab({
 })
 
 -- Main Menu
+OtherEspTest:AddButton({
+	Name = "Reset Speed"
 
-local TestColor
-
-local TestColorTab = Tab:AddSection({
-	Name = "Speed"
 
 		
 local EspTab = Window:MakeTab({
