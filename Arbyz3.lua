@@ -3,17 +3,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Arb
 
 local Window = OrionLib:MakeWindow({Name = "ArbyzTAP 🍉", IntroText = "ArbyzTAP 🍉", HidePremium = false, SaveConfig = true, ConfigFolder = "ArbyzEsp"})
 
-_G.autoTap = true
-
-
-function autoTap()
-	while _G.autoTap == true do
-		game.GetService("ReplicatedStorage").Remove.Tap:FireServer()
-		wait(.0001)
-	end
-end
-			
-
 local MainTab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
@@ -26,8 +15,7 @@ MainTab:AddToggle({
 	Name = "Noclip",
 	Default = false,
 	Callback = function(Value)
-			_G.autoTap = Value
-			autoTap()
+		print(Value)
 		end	
 })
 
