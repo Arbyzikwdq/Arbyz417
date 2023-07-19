@@ -10,8 +10,7 @@ local Tab = Window:MakeTab({
 })
 
 -- Main Menu
-OtherEspTest:AddButton({
-	Name = "Reset Speed"
+
 
 
 		
