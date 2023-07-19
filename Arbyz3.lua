@@ -3,6 +3,8 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Arb
 
 local Window = OrionLib:MakeWindow({Name = "ArbyzTAP 🍉", IntroText = "ArbyzTAP 🍉", HidePremium = false, SaveConfig = true, ConfigFolder = "ArbyzEsp"})
 
+--- Main Tab
+
 local MainTab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
@@ -19,7 +21,25 @@ MainTab:AddToggle({
 		end	
 })
 
-		
+local Section = MainTab:AddSection({
+	Name = "Speed"
+	})
+
+MainTab:AddSlider({
+	Name = "WalkSpeed",
+	Min = 10,
+	Max = 500,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WS",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end
+})
+
+--- Esp Tab
+
 local EspTab = Window:MakeTab({
 	Name = "Visual",
 	Icon = "rbxassetid://4483345998",
