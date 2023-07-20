@@ -29,7 +29,7 @@ MainTab:AddSlider({
 	Name = "WalkSpeed",
 	Min = 10,
 	Max = 500,
-	Default = 5,
+	Default = 10,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "WS",
